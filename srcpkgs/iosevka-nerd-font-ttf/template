@@ -1,0 +1,23 @@
+# Template file for 'iosevka-nerd-font-ttf'
+pkgname=iosevka-nerd-font-ttf
+version=3.4.0
+revision=1
+short_desc="Iosevka patched with nerd font symbols"
+maintainer="jtompkin <jtompkin-dev@pm.me>"
+license="MIT"
+homepage="https://nerdfonts.com"
+font_dirs="/usr/share/fonts/NerdFonts/Iosevka"
+depends="font-util"
+distfiles="https://github.com/ryanoasis/nerd-fonts/releases/download/v${version}/Iosevka.tar.xz>${pkgname}-${version}.tar.xz"
+checksum="213ee24cda99ca84d0a8326de133e7e8b2baf9ba23659ce829f589f771d357d2"
+
+do_extract() {
+    vsrcextract --no-strip-components "${pkgname}-${version}.tar.xz"
+}
+
+do_install() {
+    vmkdir usr/share/fonts/NerdFonts/ttf/Iosevka
+    for f in *.ttf; do
+        vinstall "${f}" 644 usr/share/fonts/NerdFonts/ttf/Iosevka
+    done
+}
