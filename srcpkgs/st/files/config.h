@@ -6,10 +6,14 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 <<<<<<< HEAD
+<<<<<<< HEAD
 static char *font = "Iosevka Nerd Font:pixelsize=17:antialias=true:autohint=true";
 =======
 static char *font = "Iosevka Nerd Font:pixelsize=15:antialias=true:autohint=true";
 >>>>>>> 40c5043c (add a bunch of stuff for dwm,st,iosevka)
+=======
+static char *font = "Iosevka Nerd Font:pixelsize=17:antialias=true:autohint=true";
+>>>>>>> 06de8e8f (increase font size of st)
 static int borderpx = 2;
 
 /*
