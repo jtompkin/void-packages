@@ -1,0 +1,13 @@
+pkgname=plot-primes
+_pkgname=plotprimes
+version=1.0.1
+revision=1
+homepage="https://github.com/jtompkin/plot-primes"
+license=MIT
+maintainer="jtompkin <jtompkin-dev@pm.me>"
+short_desc="Make nice polar plots of prime numbers"
+hostmakedepends="python3-setuptools"
+depends="python3-matplotlib python3-PyQt5"
+distfiles="https://github.com/jtompkin/plot-primes/releases/download/v${version}/${_pkgname}-${version}.tar.gz>${pkgname}-${version}.tar.gz"
+build_style=python3-pep517
+checksum="0dd209975329f5388ce5c6c55bc8c06fc58aa49d132b558c1cfc040d55154494"
