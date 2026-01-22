@@ -36,8 +36,11 @@ See [Contributing](./CONTRIBUTING.md) for a general overview of how to contribut
 ### Changes
 
 - Added: package **neovim-nightly** - Neovim but follows nightly release
+- Added: package [**goclacker**](https://github.com/jtompkin/goclacker)
+- Added: package [**plot-primes**](https://github.com/jtompkin/plot-primes)
 - Changed: package **st** - add several patches and custom config.h
 - Changed: package **dwm** - add custom config.h
+- Changed: package **slstatus** - add custom config.h
 
 ### Requirements
 
