@@ -1,0 +1,11 @@
+pkgname=goclacker
+version=1.4.3
+revision=1
+homepage="https://github.com/jtompkin/goclacker"
+license=MIT
+maintainer="jtompkin <jtompkin-dev@pm.me>"
+short_desc="Command line reverse Polish notation (RPN) calculator"
+build_style=go
+go_import_path="github.com/jtompkin/goclacker"
+distfiles="https://github.com/jtompkin/${pkgname}/archive/refs/tags/v${version}.tar.gz"
+checksum="da21f571e9969286ee55ea3d1732ee7b85a6c504c2dddd8613aace9e24a05f56"
