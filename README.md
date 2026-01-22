@@ -12,6 +12,7 @@ See [Contributing](./CONTRIBUTING.md) for a general overview of how to contribut
 
 ### Table of Contents
 
+- [**Changes in this fork!**](#changes)
 - [Requirements](#requirements)
 - [Quick start](#quick-start)
 - [chroot methods](#chroot-methods)
@@ -31,6 +32,12 @@ See [Contributing](./CONTRIBUTING.md) for a general overview of how to contribut
 - [Building 32bit packages on x86_64](#building-32bit)
 - [Building packages natively for the musl C library](#building-for-musl)
 - [Building void base-system from scratch](#building-base-system)
+
+### Changes
+
+- Added: package **neovim-nightly** - Neovim but follows nightly release
+- Changed: package **st** - add several patches and custom config.h
+- Changed: package **dwm** - add custom config.h
 
 ### Requirements
 
