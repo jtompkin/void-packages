@@ -62,11 +62,16 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
 <<<<<<< HEAD
+<<<<<<< HEAD
 	{ hostname,  " %s | ", NULL      },
+=======
+	{ hostname,  "%s | ", NULL       },
+>>>>>>> c2070f2f (update slstatus config)
     { ipv4,      "%s | ", "eth0"     },
 	{ ram_used,  "%s/",   NULL       },
 	{ ram_total, "%s | ", NULL       },
 	{ datetime,  "%s",    "%F %H:%M" },
+<<<<<<< HEAD
 =======
 	{ hostname,  "%s | ",    NULL       },
     { ipv4,      "%s | ",    "eth0"     },
@@ -74,4 +79,6 @@ static const struct arg args[] = {
 	{ ram_total, "%s | ",    NULL       },
 	{ datetime,  "%s",       "%F %H:%M" },
 >>>>>>> a4bf7c3f (slstatus configuration)
+=======
+>>>>>>> c2070f2f (update slstatus config)
 };
