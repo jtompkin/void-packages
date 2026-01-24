@@ -49,4 +49,10 @@ post_install() {
 		etc/kernel.d/post-install 50-efibootmgr
 	vinstall ${FILESDIR}/kernel.d/efibootmgr.post-remove 744 \
 		etc/kernel.d/post-remove 50-efibootmgr
+
+	vinstall "${FILESDIR}/efibootmgr-uki-kernel-hook.confd" 644 etc/default efibootmgr-uki-kernel-hook
+	vinstall "${FILESDIR}/kernel.d/efibootmgr-uki.post-install" 744 \
+		etc/kernel.d/post-install 50-efibootmgr-uki
+	vinstall "${FILESDIR}/kernel.d/efibootmgr-uki.post-remove" 744 \
+		etc/kernel.d/post-remove 50-efibootmgr-uki
 }
