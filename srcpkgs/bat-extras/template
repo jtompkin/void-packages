@@ -5,10 +5,14 @@ revision=1
 _commit=3860f0f1481f1d0e117392030f55ef19cc018ee4
 hostmakedepends="shfmt git bat"
 <<<<<<< HEAD
+<<<<<<< HEAD
 depends="bat entr fzf ripgrep"
 =======
 depends="bat"
 >>>>>>> 31f788ad (New package: bat-extras-20250221)
+=======
+depends="bat entr fzf ripgrep"
+>>>>>>> 620204f6 (fix subpackages of bat-extras)
 short_desc="Bash scripts that integrate bat with various command line tools"
 maintainer="jtompkin <jtompkin-dev@pm.me>"
 license=MIT
@@ -35,12 +39,17 @@ batgrep_package() {
 	short_desc="Quickly search through and highlight files using ripgrep"
 	pkg_install() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		vbin bin/batgrep
 		vman man/batgrep.1
 =======
 		vmove usr/bin/batgrep
 		vmove "usr/share/man/man1/batgrep.1"
 >>>>>>> 31f788ad (New package: bat-extras-20250221)
+=======
+		vbin bin/batgrep
+		vman man/batgrep.1
+>>>>>>> 620204f6 (fix subpackages of bat-extras)
 		vlicense LICENSE.md
 	}
 }
@@ -50,12 +59,17 @@ batman_package() {
 	short_desc="Read system manual pages (man) using bat as the manual page formatter"
 	pkg_install() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		vbin bin/batman
 		vman man/batman.1
 =======
 		vmove usr/bin/batman
 		vmove "usr/share/man/man1/batman.1"
 >>>>>>> 31f788ad (New package: bat-extras-20250221)
+=======
+		vbin bin/batman
+		vman man/batman.1
+>>>>>>> 620204f6 (fix subpackages of bat-extras)
 		vlicense LICENSE.md
 	}
 }
@@ -65,12 +79,17 @@ batpipe_package() {
 	short_desc="Less preprocessor for viewing files in the terminal"
 	pkg_install() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		vbin bin/batpipe
 		vman man/batpipe.1
 =======
 		vmove usr/bin/batpipe
 		vmove "usr/share/man/man1/batpipe.1"
 >>>>>>> 31f788ad (New package: bat-extras-20250221)
+=======
+		vbin bin/batpipe
+		vman man/batpipe.1
+>>>>>>> 620204f6 (fix subpackages of bat-extras)
 		vlicense LICENSE.md
 	}
 }
@@ -80,12 +99,17 @@ batwatch_package() {
 	short_desc="Watch for changes in files or command output, and print them with bat"
 	pkg_install() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		vbin bin/batwatch
 		vman man/batwatch.1
 =======
 		vmove usr/bin/batwatch
 		vmove "usr/share/man/man1/batwatch.1"
 >>>>>>> 31f788ad (New package: bat-extras-20250221)
+=======
+		vbin bin/batwatch
+		vman man/batwatch.1
+>>>>>>> 620204f6 (fix subpackages of bat-extras)
 		vlicense LICENSE.md
 	}
 }
@@ -95,12 +119,17 @@ batdiff_package() {
 	short_desc="View file diffs using bat"
 	pkg_install() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		vbin bin/batdiff
 		vman man/batdiff.1
 =======
 		vmove usr/bin/batdiff
 		vmove "usr/share/man/man1/batdiff.1"
 >>>>>>> 31f788ad (New package: bat-extras-20250221)
+=======
+		vbin bin/batdiff
+		vman man/batdiff.1
+>>>>>>> 620204f6 (fix subpackages of bat-extras)
 		vlicense LICENSE.md
 	}
 }
@@ -110,12 +139,17 @@ prettybat_package() {
 	short_desc="Pretty-print source code and highlight it with bat"
 	pkg_install() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		vbin bin/prettybat
 		vman man/prettybat.1
 =======
 		vmove usr/bin/prettybat
 		vmove "usr/share/man/man1/prettybat.1"
 >>>>>>> 31f788ad (New package: bat-extras-20250221)
+=======
+		vbin bin/prettybat
+		vman man/prettybat.1
+>>>>>>> 620204f6 (fix subpackages of bat-extras)
 		vlicense LICENSE.md
 	}
 }
