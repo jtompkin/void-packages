@@ -47,6 +47,7 @@ See [Contributing](./CONTRIBUTING.md) for a general overview of how to contribut
 - Changed: package **dwm** - add custom config.h
 - Changed: package **slstatus** - add custom config.h
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Changed: package **efibootmgr** - add kernel hooks for adding/removing UKI entries
 =======
 - Changed: package **st** - add several patches and custom config.h
@@ -54,6 +55,9 @@ See [Contributing](./CONTRIBUTING.md) for a general overview of how to contribut
 >>>>>>> b16e5d8e (Update README so you know what's up)
 =======
 >>>>>>> bcc906bb (update README.md)
+=======
+- Changed: package **efibootmgr** - add kernel hooks for adding/removing UKI entries
+>>>>>>> 855d32b1 (add uki kernel hooks to efibootmgr)
 
 ### Requirements
 
