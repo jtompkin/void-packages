@@ -1,0 +1,87 @@
+# Template file for 'bat-extras'
+pkgname=bat-extras
+version=20250221
+revision=1
+_commit=3860f0f1481f1d0e117392030f55ef19cc018ee4
+hostmakedepends="shfmt git bat"
+depends="bat"
+short_desc="Bash scripts that integrate bat with various command line tools"
+maintainer="jtompkin <jtompkin-dev@pm.me>"
+license=MIT
+homepage="https://github.com/eth-p/bat-extras"
+distfiles="https://github.com/eth-p/bat-extras/archive/${_commit}.tar.gz"
+checksum=8be2aecb01511aff6091f8b9700a66ca20ffc262af10774520d1609b474998ff
+
+do_build() {
+	./build.sh --minify=all --compress=true
+}
+
+do_install() {
+	for _bin in bin/*; do
+		vbin $_bin
+	done
+	for _man in man/*; do
+		vman $_man
+	done
+	vlicense LICENSE.md
+}
+
+batgrep_package() {
+	depends="bat ripgrep"
+	short_desc="Quickly search through and highlight files using ripgrep"
+	pkg_install() {
+		vmove usr/bin/batgrep
+		vmove "usr/share/man/man1/batgrep.1"
+		vlicense LICENSE.md
+	}
+}
+
+batman_package() {
+	depends="bat fzf"
+	short_desc="Read system manual pages (man) using bat as the manual page formatter"
+	pkg_install() {
+		vmove usr/bin/batman
+		vmove "usr/share/man/man1/batman.1"
+		vlicense LICENSE.md
+	}
+}
+
+batpipe_package() {
+	depends="bat"
+	short_desc="Less preprocessor for viewing files in the terminal"
+	pkg_install() {
+		vmove usr/bin/batpipe
+		vmove "usr/share/man/man1/batpipe.1"
+		vlicense LICENSE.md
+	}
+}
+
+batwatch_package() {
+	depends="bat entr"
+	short_desc="Watch for changes in files or command output, and print them with bat"
+	pkg_install() {
+		vmove usr/bin/batwatch
+		vmove "usr/share/man/man1/batwatch.1"
+		vlicense LICENSE.md
+	}
+}
+
+batdiff_package() {
+	depends="bat"
+	short_desc="View file diffs using bat"
+	pkg_install() {
+		vmove usr/bin/batdiff
+		vmove "usr/share/man/man1/batdiff.1"
+		vlicense LICENSE.md
+	}
+}
+
+prettybat_package() {
+	depends="bat"
+	short_desc="Pretty-print source code and highlight it with bat"
+	pkg_install() {
+		vmove usr/bin/prettybat
+		vmove "usr/share/man/man1/prettybat.1"
+		vlicense LICENSE.md
+	}
+}
