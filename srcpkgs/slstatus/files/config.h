@@ -63,10 +63,14 @@ static const struct arg args[] = {
 	/* function format          argument */
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	{ hostname,  " %s | ", NULL      },
 =======
 	{ hostname,  "%s | ", NULL       },
 >>>>>>> c2070f2f (update slstatus config)
+=======
+	{ hostname,  " %s | ", NULL      },
+>>>>>>> 62f55025 (minor config changes)
     { ipv4,      "%s | ", "eth0"     },
 	{ ram_used,  "%s/",   NULL       },
 	{ ram_total, "%s | ", NULL       },
