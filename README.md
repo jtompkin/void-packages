@@ -38,9 +38,13 @@ See [Contributing](./CONTRIBUTING.md) for a general overview of how to contribut
 - Added: package **neovim-nightly** - Neovim but follows nightly release
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Added: package [**bat-extras**](https://github.com/eth-p/bat-extras)
 =======
 >>>>>>> bcc906bb (update README.md)
+=======
+- Added: package [**bat-extras**](https://github.com/eth-p/bat-extras)
+>>>>>>> 735b81a7 (update readme for bat-extras)
 - Added: package [**goclacker**](https://github.com/jtompkin/goclacker)
 - Added: package [**plot-primes**](https://github.com/jtompkin/plot-primes)
 - Changed: package **st** - add several patches and custom config.h
