@@ -13,6 +13,7 @@ license="MIT"
 homepage="https://st.suckless.org"
 distfiles="https://dl.suckless.org/${pkgname}/${pkgname}-${version}.tar.gz"
 checksum=9ed9feabcded713d4ded38c8cebf36a3b08f0042ef7934a0e2b2409da56e649b
+alternatives="xterm:/usr/bin/xterm:/usr/bin/st"
 
 pre_build() {
 	vsed -i config.def.h -e 's|Liberation Mono|Monospace|g'

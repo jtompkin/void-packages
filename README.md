@@ -36,32 +36,17 @@ See [Contributing](./CONTRIBUTING.md) for a general overview of how to contribut
 ### Changes
 
 - Added: package **neovim-nightly** - Neovim but follows nightly release
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Added: package [**bat-extras**](https://github.com/eth-p/bat-extras)
-=======
->>>>>>> bcc906bb (update README.md)
-=======
 - Added: package [**bat-extras**](https://github.com/eth-p/bat-extras)
->>>>>>> 735b81a7 (update readme for bat-extras)
 - Added: package [**goclacker**](https://github.com/jtompkin/goclacker)
 - Added: package [**plot-primes**](https://github.com/jtompkin/plot-primes)
-- Changed: package **st** - add several patches and custom config.h
-- Changed: package **dwm** - add custom config.h
+- Changed: package **st** - add patches, custom config.h, xterm alternative
+- Changed: package **dwm** - add patches, custom config.h
 - Changed: package **slstatus** - add custom config.h
-<<<<<<< HEAD
-<<<<<<< HEAD
 - Changed: package **efibootmgr** - add kernel hooks for adding/removing UKI entries
-=======
 - Changed: package **st** - add several patches and custom config.h
 - Changed: package **dwm** - add custom config.h
->>>>>>> b16e5d8e (Update README so you know what's up)
-=======
->>>>>>> bcc906bb (update README.md)
-=======
 - Changed: package **efibootmgr** - add kernel hooks for adding/removing UKI entries
->>>>>>> 855d32b1 (add uki kernel hooks to efibootmgr)
 
 ### Requirements
 
