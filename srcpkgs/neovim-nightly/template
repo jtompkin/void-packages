@@ -2,15 +2,15 @@
 # URL: https://github.com/neovim/neovim/archive/2c2203c04005495b4a6272eb178a90ce06580e9d.zip
 pkgname=neovim-nightly
 version=0.12.0
-_commit=2c2203c04005495b4a6272eb178a90ce06580e9d
+_commit=72ac9ac9a1085d6f9bba64e49dd5afd500199aef
 revision=1
 # as per https://github.com/neovim/neovim/blob/master/cmake.deps/deps.txt
 _treesitter_c_version=0.24.1
-_treesitter_lua_version=0.4.0
+_treesitter_lua_version=0.4.1
 _treesitter_vim_version=0.7.0
-_treesitter_vimdoc_version=4.0.0
-_treesitter_query_version=0.6.2
-_treesitter_markdown_version=0.5.0
+_treesitter_vimdoc_version=4.1.0
+_treesitter_query_version=0.8.0
+_treesitter_markdown_version=0.5.1
 build_style=cmake
 build_helper="qemu"
 configure_args="-DCOMPILE_LUA=OFF -DENABLE_TRANSLATIONS=ON -DPREFER_LUA=$(vopt_if luajit OFF ON)"
@@ -22,20 +22,20 @@ maintainer="tranzystorekk <tranzystorek.io@protonmail.com>"
 license="Apache-2.0 AND Vim"
 homepage="https://neovim.io"
 changelog="https://github.com/neovim/neovim/releases"
-distfiles="https://github.com/neovim/neovim/archive/${commit}.tar.gz>v${version}.tar.gz
+distfiles="https://github.com/neovim/neovim/archive/${_commit}.tar.gz>v${version}.tar.gz
  https://github.com/tree-sitter/tree-sitter-c/archive/refs/tags/v${_treesitter_c_version}.tar.gz>treesitter_c_${_treesitter_c_version}.tar.gz
  https://github.com/tree-sitter-grammars/tree-sitter-lua/archive/refs/tags/v${_treesitter_lua_version}.tar.gz>treesitter_lua_${_treesitter_lua_version}.tar.gz
  https://github.com/tree-sitter-grammars/tree-sitter-vim/archive/refs/tags/v${_treesitter_vim_version}.tar.gz>treesitter_vim_${_treesitter_vim_version}.tar.gz
  https://github.com/neovim/tree-sitter-vimdoc/archive/refs/tags/v${_treesitter_vimdoc_version}.tar.gz>treesitter_vimdoc_${_treesitter_vimdoc_version}.tar.gz
  https://github.com/tree-sitter-grammars/tree-sitter-query/archive/refs/tags/v${_treesitter_query_version}.tar.gz>treesitter_query_${_treesitter_query_version}.tar.gz
  https://github.com/tree-sitter-grammars/tree-sitter-markdown/archive/refs/tags/v${_treesitter_markdown_version}.tar.gz>treesitter_markdown_${_treesitter_markdown_version}.tar.gz"
-checksum="09b8032be79266e3ca8caf704deaadb3acdc275128e090a81c25137e427ecbee
+checksum="6c7022391c29fce4e083bfff8ed6f3dcd211dff432c79e7a25cb1ab0b2d4fb77
  25dd4bb3dec770769a407e0fc803f424ce02c494a56ce95fedc525316dcf9b48
- b0977aced4a63bb75f26725787e047b8f5f4a092712c840ea7070765d4049559
+ cef44b8773bde69d427b5e50ca95e417c86c0be91caa37a6782c90d6f529da70
  44eabc31127c4feacda19f2a05a5788272128ff561ce01093a8b7a53aadcc7b2
- 8096794c0f090b2d74b7bff94548ac1be3285b929ec74f839bd9b3ff4f4c6a0b
- 90682e128d048fbf2a2a17edca947db71e326fa0b3dba4136e041e096538b4eb
- 14c2c948ccf0e9b606eec39b09286c59dddf28307849f71b7ce2b1d1ef06937e"
+ 020e8f117f648c8697fca967995c342e92dbd81dab137a115cc7555207fbc84f
+ c2b23b9a54cffcc999ded4a5d3949daf338bebb7945dece229f832332e6e6a7d
+ acaffe5a54b4890f1a082ad6b309b600b792e93fc6ee2903d022257d5b15e216"
 
 skip_extraction="
  treesitter_c_${_treesitter_c_version}.tar.gz
