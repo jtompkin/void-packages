@@ -37,16 +37,12 @@ See [Contributing](./CONTRIBUTING.md) for a general overview of how to contribut
 
 - Added: package **neovim-nightly** - Neovim but follows nightly release
 - Added: package [**bat-extras**](https://github.com/eth-p/bat-extras)
-- Added: package [**bat-extras**](https://github.com/eth-p/bat-extras)
 - Added: package [**goclacker**](https://github.com/jtompkin/goclacker)
 - Added: package [**plot-primes**](https://github.com/jtompkin/plot-primes)
 - Changed: package **st** - add patches, custom config.h, xterm alternative
 - Changed: package **dwm** - add patches, custom config.h
 - Changed: package **slstatus** - add custom config.h
 - Changed: package **dmenu** - add patches
-- Changed: package **efibootmgr** - add kernel hooks for adding/removing UKI entries
-- Changed: package **st** - add several patches and custom config.h
-- Changed: package **dwm** - add custom config.h
 - Changed: package **efibootmgr** - add kernel hooks for adding/removing UKI entries
 
 ### Requirements
