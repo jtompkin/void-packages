@@ -12,30 +12,11 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
-<<<<<<< HEAD
-<<<<<<< HEAD
 static const char col_pluto[]       = "#283651";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
 	[SchemeSel]  = { col_gray4, col_pluto, col_pluto },
-	// [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	// [SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-=======
-static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
->>>>>>> 40c5043c (add a bunch of stuff for dwm,st,iosevka)
-=======
-static const char col_pluto[]       = "#283651";
-static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_pluto, col_pluto },
-	// [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	// [SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
->>>>>>> 62f55025 (minor config changes)
 };
 
 /* tagging */
