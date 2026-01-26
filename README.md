@@ -39,6 +39,7 @@ See [Contributing](./CONTRIBUTING.md) for a general overview of how to contribut
 - Added: package [**bat-extras**](https://github.com/eth-p/bat-extras)
 - Added: package [**goclacker**](https://github.com/jtompkin/goclacker)
 - Added: package [**plot-primes**](https://github.com/jtompkin/plot-primes)
+- Added: package [**bibata-cursors**](https://github.com/ful1e5/Bibata_Cursor) - just the Modern-Classic flavor
 - Changed: package **st** - add patches, custom config.h, xterm alternative
 - Changed: package **dwm** - add patches, custom config.h
 - Changed: package **slstatus** - add custom config.h
