@@ -6,20 +6,11 @@ short_desc="Open source, compact, and material designed cursor set"
 maintainer="jtompkin <jtompkin-dev@pm.me>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/ful1e5/Bibata_Cursor"
-distfiles="https://github.com/ful1e5/Bibata_Cursor/releases/download/v${version}/Bibata-Modern-Classic.tar.xz
-	https://github.com/ful1e5/Bibata_Cursor/archive/refs/tags/v${version}.tar.gz"
-checksum="7d3495864e5bbef02f5e77de760b2905903b63c71495a78ef6306d19a3b556d8
- 1f21e5cade53d668476f973bd8ec827882a0e32c38e0e766abf007f8b3b46313"
+distfiles="https://github.com/ful1e5/Bibata_Cursor/releases/download/v${version}/Bibata-Modern-Classic.tar.xz"
+checksum="7d3495864e5bbef02f5e77de760b2905903b63c71495a78ef6306d19a3b556d8"
 alternatives="default-cursor:/usr/share/icons/default:/usr/share/icons/Bibata-Modern-Classic"
-
- do_extract() {
-	 _srcdir="${XBPS_SRCDISTDIR}/${pkgname}-${version}"
-	 vextract -C Bibata-Modern-Classic --no-strip-components "${_srcdir}/Bibata-Modern-Classic.tar.xz"
-	 vextract -C src "${_srcdir}/v${version}.tar.gz"
- }
 
 do_install() {
 	vmkdir usr/share/icons/Bibata-Modern-Classic
-	vcopy "Bibata-Modern-Classic/*" usr/share/icons
-	vlicense src/LICENSE
+	vcopy "*" usr/share/icons/Bibata-Modern-Classic
 }
