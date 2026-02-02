@@ -1,0 +1,14 @@
+# Template file for 'thunar-vcs-plugin'
+pkgname=thunar-vcs-plugin
+version=0.4.0
+revision=1
+build_style=meson
+hostmakedepends="pkg-config"
+makedepends="glib-devel gtk+3-devel libxfce4ui-devel Thunar-devel exo-devel"
+depends="git"
+short_desc="Version Contol System plugin for Thunar"
+maintainer="jtompkin <jtompkin-dev@pm.me>"
+license="GPL-2.0-or-later"
+homepage="https://gitlab.xfce.org/thunar-plugins/thunar-vcs-plugin"
+distfiles="https://gitlab.xfce.org/thunar-plugins/thunar-vcs-plugin/-/archive/thunar-vcs-plugin-${version}/thunar-vcs-plugin-thunar-vcs-plugin-${version}.tar.gz"
+checksum=89f88b2b0481ef62615d4c3f69966e30151cbba7ef3fe0cc8a3f57186445f8a5
