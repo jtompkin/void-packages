@@ -1,8 +1,8 @@
 # Template file for 'slstatus'
 pkgname=slstatus
-version=20250724
+version=20260212
 revision=1
-_commit=8723e8b8c69c08bae8abe02ea1f4a49758b8bdfc
+_commit=614c275b42064c5433fbb086e7d9639a19f1f127
 build_style=gnu-makefile
 short_desc="Suckless status monitor for dwm"
 maintainer="Dom H. <dom@hxy.io>"
@@ -10,7 +10,7 @@ license="ISC"
 homepage="https://tools.suckless.org/slstatus/"
 distfiles="https://github.com/drkhsh/slstatus/archive/${_commit}.tar.gz"
 makedepends="alsa-lib-devel libX11-devel"
-checksum="c674e9f6f788662833dfc99c95f7317491cdc18080bda5257736c7b6518f2a07"
+checksum=cc712e9406531f6c9a2bd26bff3183aedda4c9270ea9f2cf3370cba6e3bd1b16
 
 pre_build() {
 	[ -e ${FILESDIR}/config.h ] && cp ${FILESDIR}/config.h config.h
