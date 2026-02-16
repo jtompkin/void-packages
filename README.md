@@ -35,6 +35,9 @@ See [Contributing](./CONTRIBUTING.md) for a general overview of how to contribut
 
 ### Changes
 
+All changes are on the **custom** branch. All commits are rebased on top of upstream
+[void-packages](https://github.com/void-linux/void-packages) and force-pushed here.
+
 - Added: package **neovim-nightly** - Neovim but follows nightly release
 - Added: package [**bat-extras**](https://github.com/eth-p/bat-extras)
 - Added: package [**goclacker**](https://github.com/jtompkin/goclacker)
