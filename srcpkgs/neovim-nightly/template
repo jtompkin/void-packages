@@ -2,8 +2,8 @@
 # URL: https://github.com/neovim/neovim/archive/2c2203c04005495b4a6272eb178a90ce06580e9d.zip
 pkgname=neovim-nightly
 version=0.12.0
-_commit=72ac9ac9a1085d6f9bba64e49dd5afd500199aef
-revision=1
+_commit=0566767d7dbe5b2abce8d37aab85d328629b2cc7
+revision=2
 # as per https://github.com/neovim/neovim/blob/master/cmake.deps/deps.txt
 _treesitter_c_version=0.24.1
 _treesitter_lua_version=0.4.1
@@ -29,7 +29,7 @@ distfiles="https://github.com/neovim/neovim/archive/${_commit}.tar.gz>v${version
  https://github.com/neovim/tree-sitter-vimdoc/archive/refs/tags/v${_treesitter_vimdoc_version}.tar.gz>treesitter_vimdoc_${_treesitter_vimdoc_version}.tar.gz
  https://github.com/tree-sitter-grammars/tree-sitter-query/archive/refs/tags/v${_treesitter_query_version}.tar.gz>treesitter_query_${_treesitter_query_version}.tar.gz
  https://github.com/tree-sitter-grammars/tree-sitter-markdown/archive/refs/tags/v${_treesitter_markdown_version}.tar.gz>treesitter_markdown_${_treesitter_markdown_version}.tar.gz"
-checksum="6c7022391c29fce4e083bfff8ed6f3dcd211dff432c79e7a25cb1ab0b2d4fb77
+checksum="819b5c0817cd31602c7a4765a3e823b93f0e3dcfe039d293228a89836b9257cf
  25dd4bb3dec770769a407e0fc803f424ce02c494a56ce95fedc525316dcf9b48
  cef44b8773bde69d427b5e50ca95e417c86c0be91caa37a6782c90d6f529da70
  44eabc31127c4feacda19f2a05a5788272128ff561ce01093a8b7a53aadcc7b2
